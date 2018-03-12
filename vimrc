@@ -52,10 +52,10 @@ filetype indent on
 au BufRead,BufNewFile *.json set filetype=json
 au BufRead,BufNewFile *.ejs set filetype=html
 au BufRead,BufNewFile *.vue set filetype=html
-
+au BufRead,BufNewFile *.jsx set filetype=html
 
 " Set to auto read when a file is changed from the outside
-set autoread
+    set autoread
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
@@ -467,7 +467,7 @@ try
 catch
 endtry
 
-" Tries to set solarized colorscheme
+    " Tries to set solarized colorscheme
 try
     colorscheme solarized
 catch
